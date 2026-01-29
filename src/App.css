@@ -1,38 +1,45 @@
-.App {
-  text-align: center;
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card {
+    border-radius: 12px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.form-control, .form-select {
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid #dee2e6;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.form-control:focus {
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.15);
 }
 
-.App-link {
-  color: #61dafb;
+.btn {
+    border-radius: 8px;
+    font-weight: 600;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-brand {
+    letter-spacing: 1px;
+}
+
+body {
+    background-color: #f0f2f5;
+}
+
+.hover-shadow {
+    transition: all 0.3s ease;
+    cursor: default;
+}
+
+.hover-shadow:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important;
+}
+
+.uppercase {
+    text-transform: uppercase;
 }
