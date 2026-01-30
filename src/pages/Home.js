@@ -94,7 +94,7 @@ const Home = () => {
               className="text-muted fw-bold"
               style={{ fontSize: "0.7rem" }}
             >
-              SECURE SERVER V2.0
+              SECURE SERVER V2.1
             </small>
           </div>
         </div>

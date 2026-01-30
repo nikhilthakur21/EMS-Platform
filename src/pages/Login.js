@@ -75,7 +75,7 @@ const Login = () => {
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               className="form-control form-control-lg border-0 bg-light"
-              placeholder="••••••••"
+              placeholder="•••••••••"
               style={{ fontSize: "0.9rem" }}
               required
             />
@@ -90,7 +90,7 @@ const Login = () => {
         </form>
 
         <div className="mt-4 text-center">
-          <span className="text-muted small">New to the team? </span>
+          <span className="text-muted small">New to the team ? </span>
           <button
             onClick={() => navigate("/SignUpForm")}
             className="btn btn-link btn-sm text-decoration-none fw-bold p-0"
